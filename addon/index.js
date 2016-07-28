@@ -44,7 +44,7 @@ export default Ember.Mixin.create({
     }
     
     // do not allow embedded relationships
-    delete serialized.data.relationships;
+    //delete serialized.data.relationships;
   
     return serialized.data;
   
